@@ -2,14 +2,14 @@
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
 #### Code Highlighter
-highlighter: pygments
+highlighter: rouge
 
 #### Permalink
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title 
 
 #### Markdown Processors
-markdown: redcarpet
+markdown: kramdown
 redcarpet:
   extensions:
     - hard_wrap
