@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+source "http://gems.ruby-china.org"
 ruby RUBY_VERSION
 
 # Hello! This is where you manage which Jekyll version is used to run.
@@ -9,7 +9,7 @@ ruby RUBY_VERSION
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "3.3.1"
+gem "jekyll", "3.4.3"
 
 # Pagination for Jekyll
 gem 'jekyll-paginate'
