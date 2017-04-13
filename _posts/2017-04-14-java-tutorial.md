@@ -3,7 +3,6 @@ layout: post
 title: Java程序设计
 tags: java
 ---
-
 # Java程序设计环境
 
 Jre(java runtime environment): 是一个虚拟机，类似.net的clr，里面有Java内存模型，基于自动内存托管堆，集成了各种分代GC回收算法，以及类子节码解析器以及各种JIT等等；

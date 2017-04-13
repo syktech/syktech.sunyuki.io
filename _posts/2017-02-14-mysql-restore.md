@@ -3,8 +3,6 @@ layout: post
 title: MySQL 数据库恢复
 tags: mysql
 ---
-
-
 ## 二进制日志的恢复
 
 二进制日志非常关键，用户可以通过它完成`point-in-time`的恢复工作。MySQL数据库的replication同样需要二进制日志。  
