@@ -7,6 +7,7 @@ tags: java
 # Java程序设计环境
 
 Jre(java runtime environment): 是一个虚拟机，类似.net的clr，里面有Java内存模型，基于自动内存托管堆，集成了各种分代GC回收算法，以及类子节码解析器以及各种JIT等等；
+
 <!-- more -->
 
 Jdk(java development kit): 包括Jre，并且提供了Java代码到类子节码文件的编译器，以及线程/内存/虚拟机的诊断工具等等；
