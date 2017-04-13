@@ -7,6 +7,8 @@
   <p class="article-author">By
        {% if site.author.google_plus %}
 		<a href="https://plus.google.com/{{ site.author.google_plus }}?rel=author" title="{{ site.author.name }}" target="_blank" itemprop="author">{{ site.author.name }}</a>
+	{% elsif item.author %}
+<a href="{{ site.baseurl }}/about" title="{{ item.author }}" target="_blank" itemprop="author">{{ item.author }}</a>
 		{% else %}
 		<a href="{{ site.baseurl }}/about" title="{{ site.author.name }}" target="_blank" itemprop="author">{{ site.author.name }}</a>
 		{% endif %}

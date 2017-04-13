@@ -2,6 +2,7 @@
 layout: post
 title: MySQL 数据库恢复
 tags: mysql
+author: zengyilun
 ---
 ## 二进制日志的恢复
 
