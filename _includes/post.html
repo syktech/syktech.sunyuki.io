@@ -1,4 +1,6 @@
 {% assign item = page %}
 {% assign index = false %}
 {% assign table = true %}
+{% assign temp_array = item.url | split: "/" %}
+{% assign slugname = temp_array.last %}
 {% include _partial/post/article.html %}
