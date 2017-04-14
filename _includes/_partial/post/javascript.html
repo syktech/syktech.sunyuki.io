@@ -1,4 +1,8 @@
 <script type="text/javascript">
+	String.prototype.startWith=function(str){     
+  		var reg=new RegExp("^"+str);     
+	  return reg.test(this);        
+	}  
 	var root = $("article[itemprop=articleBody]");
 	root.find("img").each(function(){
 		var src = $(this).attr("src");
