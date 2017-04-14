@@ -15,7 +15,7 @@
 		</div>
 		{% endif %}
 		{% capture new_content %}
-			{% assign new_article = post.content | append: "test"}
+			{% assign new_article = post.content | append: "test" %}
 			{{ new_article }}
 		{% endcapture %}
 		{{ content }}  
