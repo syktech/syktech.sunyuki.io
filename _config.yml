@@ -12,9 +12,9 @@ slugname: :title
 
 #### Post Asserts
 postasserts:
-  root: posts
-  images: images
-  code: code
+- root: posts
+- images: images
+- code: code
 
 
 
