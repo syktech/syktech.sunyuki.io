@@ -6,7 +6,15 @@ highlighter: rouge
 
 #### Permalink
 # For more see: http://jekyllrb.com/docs/permalinks/
-permalink: /:categories/:year/:month/:day/:title 
+permalink: /:categories/:year/:month/:day/:title
+
+#### Post Asserts
+postasserts:
+  root: posts
+  images: images
+  code: code
+
+
 
 #### Markdown Processors
 markdown: kramdown
