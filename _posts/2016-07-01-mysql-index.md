@@ -4,6 +4,7 @@ title:      "Mysql之索引"
 subtitle:   "对于查询性能，索引也是能最快最方便提升一个查询速度的捷径，这个99%的开发人员都知道这货是干这个事情的，但是仅仅不到10%的开发人员能真正了解和用好它，该篇文章总结一下mysql中的索引使用"
 date:       2016-07-01 12:00:00
 author:     "ryan"
+tags:		mysql
 header-img: "img/post-bg-06.jpg"
 ---
 
