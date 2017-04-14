@@ -15,9 +15,10 @@
 		</div>
 		{% endif %}
 		{% capture new_content %}
-			{{content}} | append: "test"
+			{% assign new_article = post.content | append: "test"}
+			{{ new_article }}
 		{% endcapture %}
-		{{ new_content }}  
+		{{ content }}  
 	</div>
 	{% include _partial/post/footer.html %}   
 	</article>
