@@ -3,5 +3,5 @@
 {% assign table = true %}
 {% assign temp_array = item.url | split: "/" %}
 {% assign slugname = temp_array.last %}
-{% assign imgpath = ["post", "images"] | join: "/" | append: "/" | append: slugname %}
+{% assign imgpath = "/posts/images/" | append: slugname %}
 {% include _partial/post/article.html %}
