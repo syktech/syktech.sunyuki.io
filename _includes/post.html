@@ -3,4 +3,5 @@
 {% assign table = true %}
 {% assign temp_array = item.url | split: "/" %}
 {% assign slugname = temp_array.last %}
+{% assign imgpath = slugname | prepend: site.postasserts.root + "/" + site.postasserts.images + "/" %}
 {% include _partial/post/article.html %}

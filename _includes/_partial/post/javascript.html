@@ -1,0 +1,6 @@
+<script type="text/javascript">
+	$("img").each(function(){
+		var src = $(this).prop("src");
+		$(this).prop("src", $("article [itemprop=articleBody]").attr("imgpath") + src);
+	});
+</script>

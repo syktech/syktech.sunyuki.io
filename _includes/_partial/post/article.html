@@ -2,7 +2,7 @@
   {% if page.layout == 'photo' and item.photos and item.photos | size != 0 %}
 	{% include _partial/post/gallery.html %}
   {% endif %}
-	<article itemprop="articleBody"> 
+  <article itemprop="articleBody" imgpath="{{ imgpath }}"> 
 	{% include _partial/post/header.html %}
 	<div class="article-content">
 		{% if table and site.toc.article %}
@@ -20,6 +20,7 @@
 		{% endcapture %}
 		{{ content }}  
 	</div>
+	{% include _partial/post/javascript.html %}
 	{% include _partial/post/footer.html %}   
 	</article>
 	{% include _partial/post/pagination.html %}
