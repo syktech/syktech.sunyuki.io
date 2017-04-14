@@ -1,6 +1,10 @@
 <script type="text/javascript">
-	$("img").each(function(){
-		var src = $(this).prop("src");
-		$(this).prop("src", $("article [itemprop=articleBody]").attr("imgpath") + src);
+	var root = $("article[itemprop=articleBody]");
+	root.find("img").each(function(){
+		var src = $(this).attr("src");
+		if(src.startWith("/")){
+			src = src.substring(1, src.length);
+		}
+		$(this).prop("src", root.attr("imgpath") + src);
 	});
 </script>
