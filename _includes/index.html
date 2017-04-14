@@ -1,7 +1,6 @@
 <div id="main">
 {% for post in paginator.posts %}
   {% assign item = post %}
-  {% assign slugname = item.title %}
   {% assign index = true %}
   {% assign desc = true %}
   {% include _partial/article.html %}

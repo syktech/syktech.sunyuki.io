@@ -8,6 +8,8 @@ highlighter: rouge
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title
 
+slugname: :title
+
 #### Post Asserts
 postasserts:
   root: posts
