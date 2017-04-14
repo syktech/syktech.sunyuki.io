@@ -5,9 +5,9 @@ tags: java
 author: zengyilun
 ---
 
-# Java程序设计环境 {{ slugname }} {{ post.slugname }} {{ item.slugname }} {{ image }}
+# Java程序设计环境 
 
-Jre(java runtime environment): {{slugname}} {{item.url}} 是一个虚拟机 {{url}}，类似.net的clr，里面有Java内存模型，基于自动内存托管堆，集成了各种分代GC回收算法，以及类子节码解析器以及各种JIT等等；
+Jre(java runtime environment):是一个虚拟机，类似.net的clr，里面有Java内存模型，基于自动内存托管堆，集成了各种分代GC回收算法，以及类子节码解析器以及各种JIT等等；
 
 
 <!-- more -->
