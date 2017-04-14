@@ -6,6 +6,9 @@
 	var root = $("article[itemprop=articleBody]");
 	root.find("img").each(function(){
 		var src = $(this).attr("src");
+		if(src.startWith("http")){
+			return true;
+		}
 		if(src.startWith("/")){
 			src = src.substring(1, src.length);
 		}
