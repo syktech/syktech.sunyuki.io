@@ -2,7 +2,7 @@
     {% if page.layout == 'photo' and item.photos and item.photos | size != 0 %}
 	    {% include _partial/post/gallery.html %}
     {% endif %}
-    <article class="post-expand {{ item.layout }}" itemprop="articleBody" zyl2="{{ slugname }}"> 
+    <article class="post-expand {{ item.layout }}" itemprop="articleBody" slugname="{{ slugname }}"> 
         {% include _partial/post/header.html %}
     <div class="article-content">
         {% if item.excerpt and index %}

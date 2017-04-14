@@ -2,7 +2,8 @@
 {% for post in paginator.posts %}
   {% assign item = post %}
   {% assign index = true %}
-  {% assign slugname = item.url %}
+  {% assign temp_array = item.url | split "/" %}
+  {% assign slugname = temp_array.last %}
   {% assign desc = true %}
   {% include _partial/article.html %}
 {% endfor %}
