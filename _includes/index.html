@@ -2,7 +2,7 @@
 {% for post in paginator.posts %}
   {% assign item = post %}
   {% assign index = true %}
-  {% assign slugname = item.permalink %}
+  {% assign slugname = item.url %}
   {% assign desc = true %}
   {% include _partial/article.html %}
 {% endfor %}
