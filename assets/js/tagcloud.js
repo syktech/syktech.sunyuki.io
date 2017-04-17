@@ -204,7 +204,7 @@ function tagcloudHelper(tags, options) {
 
   var sizes = [];
 
-  tags.sort('length').forEach(function(tag) {
+  tags.sort(function(a,b){return a.length-b.length}).forEach(function(tag) {
     var length = tag.length;
     if (~sizes.indexOf(length)) return;
 
