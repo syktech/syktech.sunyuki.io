@@ -97,7 +97,7 @@ bin/spark-submit --master spark://masterip:7077 --class xx.xx.xx yourapp.jar
 还有一种方式是集群方式，命令如下：
 
 ```sh
-bin/spark-submit --master spark://masterip:7077 --deploy-mode cluster --class xx.xx.xx yourapp.jar
+bin/spark-submit --master spark://masterip:7077 --deploy-mode cluster --class xx.xx.xx.yourapp.jar
 ```
 
 这种方式是将驱动程序提交到集群中的某个执行器节点，然后再进行spark-submit操作，这样就肯定是再内网执行驱动程序的提交提高了执行效率，这种方式一般使用在产品环境，但是这种方式有一个条件，就是必须将yourapp.jar放到hdfs，或者在每台执行器节点都要放这个jar，否者会提示不能找到该jar的可能；
